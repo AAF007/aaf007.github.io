@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MY Profile</title>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="asset/css/style.css">
 </head>
 <body>
-AAF007
+
+<div class="left-bar">
+	<div class="left-bar1">
+		<img src="img/user.png" class="user-photo">
+		<p class="myname">Achmad Afdholul Faathin</p>
+		<p class="inisial">-AAF-</p>
+	</div>
+
+	<div class="left-bar2">
+		DOWNLOAD THIS
+	</div>
+
+</div>
+<div class="container"></div>
+<div class="right-bar"></div>
+
+
+
+
+<script language='JavaScript'>
+	var txt="Achmad Afdholul Faathin - Profile CV || ";
+	var speed=300;
+	var refresh=null;
+	function action() { document.title=txt;
+	txt=txt.substring(1,txt.length)+txt.charAt(0);
+	refresh=setTimeout("action()",speed);}action();
+</script>
 </body>
 </html>

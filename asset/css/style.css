@@ -125,7 +125,13 @@ body {
 	width: 25px;
 	height: 25px;
 	border-radius: 30px;
-	background-color: red;
+	background-color: #0984e3;
+	border:1px solid #0984e3;
+}
+
+#tbulet {
+	background-color: white;
+	border: 1px solid #0984e3;
 }
 
 .list {
@@ -155,4 +161,16 @@ body {
 #mypic {
 	width: 50px;
 	margin-left: 0px;
+}
+/**/
+#wa {
+	width: 40px;
+}
+
+#fb {
+	width: 40px;
+}
+
+#ig {
+	width: 40px;
 }

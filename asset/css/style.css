@@ -152,15 +152,17 @@ body {
 }
 
 .rb-pic {
-	border-radius: 100px;
+	border-radius: 50px;
 	width: 35px;
 	margin-top: 10px;
 	margin-left: 7.5px;
+	border:1px solid #7f8c8d;
 }
 
 #mypic {
 	width: 50px;
 	margin-left: 0px;
+	border: 0px;
 }
 /**/
 #wa {
@@ -174,3 +176,8 @@ body {
 #ig {
 	width: 40px;
 }
+
+#school {
+	height: 35px;
+}
+

@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #E6E6E6;
+	height: 750px;
 }
 
 .left-bar {
@@ -50,14 +51,13 @@ body {
 	margin-top: 5px;
 	width: 40px;
 	height: 40px;
-	background-color: red;
 	margin-left: 20px;
 	border-radius: 100px;
 }
 
 .container {
 	width: 750px;
-	height: 1000px;
+	height: 700px;
 	background-color: #fbfbfb;
 	margin-left: 430px;
 	margin-top: -361px;
@@ -93,19 +93,66 @@ body {
 
 .profil {
 	width: 325px;
-	height: 100px;
-	background-color: red;
+	height: 300px;
 	margin-top: 50px;
 	margin-left: 25px;
 }
 
 .skill {
 	width: 325px;
-	height: 100px;
-	background-color: yellow;
+	height: 300px;
 	margin-left: 375px;
+	margin-top: -270px;
 }
 
 .personal {
 	font-size: 17px;
+}
+
+.language{
+	list-style: none;
+	margin-left: -30px;
+}
+
+.wadah-bullet {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.bullet {
+	margin-left: 5px;
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+	background-color: red;
+}
+
+.list {
+	margin-top: 20px;
+}
+
+#git {
+	width: 40px;
+}
+
+/*RIGHT BAR*/
+
+.right-bar {
+	margin-top: -700px;
+	margin-left: 1210px;
+	width: 50px;
+	height: 330px;
+}
+
+.rb-pic {
+	border-radius: 100px;
+	width: 35px;
+	margin-top: 10px;
+	margin-left: 7.5px;
+}
+
+#mypic {
+	width: 50px;
+	margin-left: 0px;
 }

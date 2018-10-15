@@ -53,6 +53,7 @@ body {
 	height: 40px;
 	margin-left: 20px;
 	border-radius: 100px;
+	transition: 2s;
 }
 
 .container {
@@ -181,3 +182,38 @@ body {
 	height: 35px;
 }
 
+.socmed:hover {
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
+#school,#email,#blog {
+	transition: 2s;
+}
+
+#school:hover ,#email:hover ,#blog:hover {
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #E6E6E6; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #E6E6E6; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+	background-color: #E6E6E6;
+  }
+}
